@@ -1,9 +1,9 @@
-html {
+html{
     font-size:62.5%;
     font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    min-width: 1262px;
+    color: #33475b;
+    min-width: 1260px;
 }
-
 
 *{
     margin: 0;
@@ -35,7 +35,7 @@ html {
 
 
 
-/* ----------NAV----------- */
+/* **************  NAV  ************** */
 #navbar,#navmenu{
     height: 80px;
     line-height: 80px;
@@ -47,8 +47,7 @@ html {
     vertical-align: middle;
 }
 
-
-/* -----------TITLE---------- */
+/* ************  TITLE  ************ */
 #header-bg-image{
     background-image: url("img/jumbotron.png");
     background-repeat: no-repeat;
@@ -69,10 +68,8 @@ html {
 
 
 
+/* **************  MAIN  ************** */
 
-/* ---------- MAIN ------------ */
-
-/* prima colonna */
 #container-img-header_main{
     text-align: center;
 }
@@ -83,16 +80,18 @@ html {
 }
 
 
-/* centratura hr, row popolar future */
+/* centering hr, row popolar future */
 .centratura-vericale-hr{
     line-height: 2rem;
     vertical-align: middle;
 }
 
+
 /* property hr popolar future-Free HubSpot CRM */
 #hr-popolar-future{
     border: 1px solid grey;
 }
+
 
 /* list free hub spot */
 .list-freeHubSpot li{
@@ -102,16 +101,21 @@ html {
 
 .list-freeHubSpot li > i{
     padding-right: 10px;
-    color: #f05323;
+    color: #ff7f59;
 }
 
 
-/* ----SEZIONE SERVIZI--- */
+/* ----Section Service--- */
 
 /* thumbnail */
-.thumbnail{
-    width: 150px;
+#img-book{
+    width: 170px;
     height: 150px;
+}
+
+.thumbnail{
+    width: 120px;
+    height: 120px;
 }
 
 /* hr- sezione servizi */
@@ -124,14 +128,115 @@ html {
 }
 
 .list-services > li > i{
-    color: #f05323;
+    color: #ff7f59;
+}
+
+
+
+/*-- sezione objectives-achieved --*/
+.col-25 > .numbers{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.col-25 > p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#numbers-reached > .col-25 > * {
+    margin: 20px 0;
+}
+
+
+/* border columns numbers reached */
+#numbers-reached > .col-25{
+    border-right-style: solid;
+}
+
+#numbers-reached > .col-25:nth-child(1n+5) {
+    border-top-color:  white;
+    border-top-style: solid;
+}
+
+#numbers-reached > .col-25:nth-child(4n+0) {
+    border-right-style: none;
+}
+
+
+
+/* sezione sponsor e clienti totali di hubspot */
+.text-number-of-customers{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#number-of-customers_and_sponsors >
+.col-100 >.col-60 > .col-25{
+    margin: 16px 0;
+    padding: 0 12px;
+}
+
+#number-of-customers_and_sponsors >
+.col-100 >.col-60 > .col-25 > img{
+    height: 32px;
+    width: 125px;
+    cursor: pointer;
+}
+
+
+/* Sezione immagine woman / iscriviti */
+.img-woman{
+    height: 350px;
+    width: 290px;
 }
 
 
 
 
+/* ************* FOOTER **************/
 
+.container-icon-social{
+    display: inline-block;
+}
 
+#footer > .col-100 > .col-25 > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 1.6rem;
+}
+
+#container-icon-social > a > i{
+    color: white;
+    width: 35px;
+    font-size: 1.6rem;
+}
+
+#container-language-support-link > a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 15px;
+}
+
+.hr-footer{
+    border: 1px solid grey;
+}
+
+.logo-footer{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(200deg) brightness(203%) contrast(300%);
+    cursor: pointer;
+}
+
+.container-legacy-policy > a{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+}
 
 
 
@@ -174,7 +279,10 @@ html {
 
 .col-30{
     width: 30%;
+}
 
+.col-25{
+    width: 25%;
 }
 
 .col-20{
@@ -184,44 +292,63 @@ html {
 
 
 /* BG-COLOR */
+.bg-color-linear-gradient{
+    background: linear-gradient(45deg, #00A4BD, #00BDA5);
+}
 
 .bg-color-orange{
-    background-color: #f05323;
+    background-color: #ff7f59;
+}
+
+.bg-color-grey-footer{
+    background-color: #2d3e50;
+    height: 700px;
+}
+
+.bg-color-white{
+    background-color: white;
 }
 
 
-/* BUTTONS SETTING */
 
+
+/* BUTTONS SETTING */
 .button{
-    background-color: #f05323;
-    border: 1px solid #f05323;
+    background-color: #ff7f59;
+    border: 1px solid #ff7f59;
     border-radius: 5px;
     display:inline-block;
     color: rgb(255,255,255);
-    font-size: 1.8rem;
     cursor: pointer;
-
 }
 
 #log-in{
     background-color: rgba(0, 0, 0, 0);
     padding: 1rem 1rem;
-    border-color: #f05323;
-    color: #f05323;
+    border-color: #ff7f59;
+    color: #ff7f59;
 }
 
-#Get-Hubspot-Free{
+.Get-Hubspot-Free{
     padding: 1rem 1rem;
 }
 
-#Get-Hubspot-Free_title{
+.Get-Hubspot-Free_title{
     padding: 2rem 3rem;
+}
+
+.Contact-Support-Button{
+    background-color: white;
+    border: 1px solid white;
+    color: #2d3e50;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
 }
 
 
 
 
-/* BORDER-COLOR */
+/* ***** BORDER-COLOR  ***** */
 .divider{
     border: 1px solid #000;
 }
@@ -231,7 +358,9 @@ html {
 }
 
 
-/* ICON-SETTING*/
+
+
+/* ***** ICON-SETTING  ***** */
 .fa-globe-europe{
     color: #000;
 }
@@ -241,8 +370,8 @@ html {
 }
 
 
-/* SELECT */
 
+/* ***** SELECT  ***** */
 select.no-radius{
     border:none;
     cursor: pointer;
@@ -250,19 +379,18 @@ select.no-radius{
 
 
 
-/* TEXT */
-
+/* ***** TEXT  ***** */
 .text-size_nav{
     font-size: 1.7rem;
     font-weight: 500;
 }
 
-.text-title{
+.text-h1{
     font-size: 5rem;
     font-weight: bold;
 }
 
-.text-header-main{
+.text-h2{
     font-size: 4rem;
     font-weight: bold;
 }
@@ -279,8 +407,8 @@ select.no-radius{
 
 .text-paragraphs{
     font-size: 1.6rem;
-    font-weight: bold;
-    line-height: 25px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .text-paragraphs-subscribers{
@@ -294,6 +422,20 @@ select.no-radius{
     font-weight: bold;
 }
 
+.text-label-footer{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.text-Copyright{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.text-color-white{
+    color: white;
+}
+
 .text-color_grey{
     color: grey;
 }
@@ -303,9 +445,10 @@ select.no-radius{
     color: black;
 }
 
-/* MARGIN UTILITY */
+
+/* ***** MARGIN UTILITY  ***** */
 .m-top_80px{
-    margin-top: 80px;
+    margin\-top: 80px;
 }
 
 .m-bottom_80px{
@@ -341,18 +484,47 @@ select.no-radius{
 }
 
 .m-bottom_30px{
-    margin-bottomj: 30px;
+    margin-bottom: 30px;
+}
+
+.m-top_20px{
+    margin-top: 20px;
+}
+
+.m-bottom_20px{
+    margin-bottom: 20px;
+}
+
+.m-top_10px{
+    margin-top: 10px;
+}
+
+.m-bottom_10px{
+    margin-bottom: 10px;
+}
+
+.m-top_5px{
+    margin-top: 5px;
 }
 
 .m-left-10px{
     margin-left: 50px;
 }
 
+.p-top-bottom_4-6{
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
 
-/* padding */
 
+
+/* ***** PADDING UTILITY  ***** */
 .padding-top{
     padding-top: 50%;
+}
+
+.p-right_100{
+    padding-right: 100px;
 }
 
 .p-left_5{
@@ -363,16 +535,35 @@ select.no-radius{
     padding-right: 5%;
 }
 
+.p-left-right_2{
+    padding: 0 2%;
+}
+
 .p-left-right_5{
     padding: 0 5%;
+}
+
+.p-left-right_6{
+    padding: 0 6%;
+}
+
+.p-left-right_8{
+    padding: 0 8%;
+}
+
+.p-left-right_10{
+    padding: 0 15%;
+}
+
+.p-top-bottom{
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 
 
 
-
-
-/* UTILITY */
+/* ***** OTHER UTILITIES  ***** */
 .pointer{
     cursor: pointer;
 }
@@ -383,6 +574,10 @@ select.no-radius{
 
 .text-align-center{
     text-align: center;
+}
+
+.text-align-right{
+    text-align: right;
 }
 
 .width-100{
