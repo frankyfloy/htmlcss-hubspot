@@ -120,7 +120,7 @@
 
         </header>
 
-        <div id="row-bg-green" class="row">
+        <div id="row-bg-green" class="row m-bottom_80px">
             <hr class="divider2">
             <div class="col-100 container-bg-divider">
 
@@ -133,35 +133,37 @@
         <main>
 
             <!-- row main iniziale con colonne -->
-            <div class="row">
+            <div class="row m-top_80px m-bottom_80px">
                 <section class="containers-items-row">
-
-                    <div id="container-img-header_main" class="col-100 m-top_50px m-bottom_50px">
+                    <!-- Titolo Main con immagine cube + paragrafo-->
+                    <div id="container-img-header_main" class="col-100 m-bottom_50px">
                         <img id="cube-img" src="assets\img\cube.webp" alt="">
 
                         <h2 class="text-header-main m-bottom_40px">Powerful alone. Better together</h2>
 
                         <p class="text-paragraphs">HubSpot offers a full stack of software to marketing, sales, and customer service, whit a completely free CRM at its<br> core. They're powerful alone – but even better when used together.</p>
                     </div>
-
-                    <div class="col-100 p-left-right m-top_50px m-bottom_70px">
+                    <!-- Sezione Free HubSpot CRM -->
+                    <div class="col-100 p-left-right_5 m-top_50px m-bottom_80px">
                         <div class="col-20 text-align-center">
-                            <img class="img-book" src="assets\img\book.svg" alt="">
+                            <img class="thumbnail" src="assets\img\book.svg" alt="">
 
-                            <button type="button" name="Get-Hubspot-Free" id="Get-Hubspot-Free_title" class="button m-bottom_40px">Learn more</button>
+                            <button type="button" name="Get-Hubspot-Free" id="Get-Hubspot-Free_title" class="button">Learn more</button>
                         </div>
 
-                        <div class="col-80 p-left-right">
+                        <div class="col-80 p-left-right_5">
                             <h3 class="text-h3 m-bottom_40px">Free HubSpot CRM</h3>
                             <p class="text-paragraphs">Everything you need to organize, track, and build better relationships whit leads and<br>customers. Yes, it's 100% free. Forever.</p>
-                            <div>
-                                <div class="m-top_30px">
-                                    <h4 class="col-30 text-h4  display">POPOLAR FEATURE</h4>
-                                    <div class="col-70 centratura-vericale">
-                                        <span class="display width-100 m-left-10px"><hr id="hr-popolar-future"></span>
-                                    </div>
+
+                            <div class="m-top_30px">
+                                <h4 class="col-30 text-h4 display">POPOLAR FEATURE</h4>
+                                <div class="col-70 centratura-vericale-hr">
+                                    <span class="display width-100 m-left-10px">
+                                        <hr id="hr-popolar-future">
+                                    </span>
                                 </div>
                             </div>
+
 
                             <div class="col-100 list-freeHubSpot m-top_30px m-bottom_50px">
                                 <ul class="text-list">
@@ -179,100 +181,137 @@
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
-
-
                     </div>
 
-                    <div class="col-100 m-top_70px">
-                        <div class="col-33">
+                    <!-- INIZIO SEZIONE SERVIZI -->
+                    <div class="col-100 m-top_80px">
+                        <div class="col-33 p-right_5">
                             <!-- div image -->
                             <div class="col-100">
 
-                                <section class="col-100 service-hub">
-                                    <img src="" alt="">
+                                <section class="col-100 service-hub text-align-center">
+                                    <img class="thumbnail"
+                                    src="assets\img\buble.svg" alt="">
 
-                                    <span class="header-service_hub"></span>
+                                    <h3 class="header-service_hub text-h3 m-top_30px">Marketing Hub</h3>
 
-                                    <p></p>
+                                    <p class="text-paragraphs m-top_30px m-bottom_80px">Marketing software to help you grow<br>traffic, convert more visitors, and run<br>complete inbound marketing<br>campaigns at scale.</p>
 
-                                    <hr>
+
                                 </section>
 
+                                <hr class="hr_section-service">
 
-                                <section class="col-100 popalar-feature">
-                                    <span class="header-popolar-feature"></span>
+                                <section class="col-100 popalar-feature m-top_40px">
+                                    <h4 class="text-h4 text-align-center">POPOLAR FEATURE</h4>
                                     <!-- lista servizi -->
-                                    <ul class="list services">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
+                                    <ul class="list-services text-list m-top_30px">
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Lead generation
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Marketing automation
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Analytics
+                                        </li>
                                     </ul>
 
                                     <!-- button ulteriori info -->
-                                    <button type="button" name="button"></button>
+                                    <div class="text-align-center m-top_40px">
+                                        <button type="button" name="Get-Hubspot-Free" id="Get-Hubspot-Free_title" class="button">Learn more</button>
+                                    </div>
+
                                 </section>
                             </div>
                         </div>
 
 
-                        <div class="col-33">
+                        <div class="col-33 p-left-right_5">
                             <!-- div image -->
                             <div class="col-100">
 
-                                <section class="col-100 service-hub">
-                                    <img src="" alt="">
+                                <section class="col-100 service-hub text-align-center">
+                                    <img class="thumbnail"
+                                    src="assets\img\office.svg" alt="">
 
-                                    <span class="header-service_hub"></span>
+                                    <h3 class="header-service_hub text-h3 m-top_30px">Sales Hub</h3>
 
-                                    <p></p>
+                                    <p class="text-paragraphs m-top_30px m-bottom_80px">Sales CRM software to help<br>you get deeper insights into prospects,<br>automate the tasks you hate, and close<br>more deals faster.</p>
 
-                                    <hr>
+
                                 </section>
 
+                                <hr class="hr_section-service m-top_30px">
 
-                                <section class="col-100 popalar-feature">
-                                    <span class="header-popolar-feature"></span>
-                                    <!-- lista servizi -->
-                                    <ul class="list services">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
+                                <section class="col-100 popalar-feature m-top_40px">
+                                    <h4 class="text-h4 text-align-center">POPOLAR FEATURE</h4>
+                                    <ul class="list-services text-list m-top_30px">
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Advanced CRM
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Meeting scheduling
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Quotes
+                                        </li>
                                     </ul>
 
                                     <!-- button ulteriori info -->
-                                    <button type="button" name="button"></button>
+                                    <div class="text-align-center m-top_40px">
+                                        <button type="button" name="Get-Hubspot-Free" id="Get-Hubspot-Free_title" class="button">Learn more</button>
+                                    </div>
                                 </section>
                             </div>
                         </div>
 
-                        <div class="col-33">
+                        <div class="col-33 p-left_5">
                             <!-- div image -->
                             <div class="col-100">
 
-                                <section class="col-100 service-hub">
-                                    <img src="" alt="">
+                                <section class="col-100 service-hub text-align-center">
+                                    <img class="thumbnail"
+                                    src="assets\img\table.svg" alt="">
 
-                                    <span class="header-service_hub"></span>
+                                    <h3 class="header-service_hub text-h3 m-top_30px">Service Hub</h3>
 
-                                    <p></p>
+                                    <p class="text-paragraphs m-top_30px m-bottom_80px">Customer service software to help you<br>connect with customers, exceed<br>expectations, and turn them into<br>promoters who grow your business.</p>
 
-                                    <hr>
+
                                 </section>
 
+                                <hr class="hr_section-service m-top_30px">
 
-                                <section class="col-100 popalar-feature">
-                                    <span class="header-popolar-feature"></span>
+                                <section class="col-100 popalar-feature m-top_40px">
+                                    <h4 class="text-h4 text-align-center">POPOLAR FEATURE</h4>
                                     <!-- lista servizi -->
-                                    <ul class="list services">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
+                                    <ul class="list-services text-list m-top_30px">
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Tickets
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Customer feedback
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check-circle"></i>
+                                            Knowledge base
+                                        </li>
                                     </ul>
 
                                     <!-- button ulteriori info -->
-                                    <button type="button" name="button"></button>
+                                    <div class="text-align-center m-top_40px">
+                                        <button type="button" name="Get-Hubspot-Free" id="Get-Hubspot-Free_title" class="button">Learn more</button>
+                                    </div>
                                 </section>
                             </div>
                         </div>

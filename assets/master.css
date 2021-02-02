@@ -83,22 +83,15 @@ html {
 }
 
 
-/* seconda colonna */
-.img-book{
-    width: 150px;
-    height: 150px;
-}
-
 /* centratura hr, row popolar future */
-.centratura-vericale{
+.centratura-vericale-hr{
     line-height: 2rem;
     vertical-align: middle;
 }
 
-/* property hr popolar future */
+/* property hr popolar future-Free HubSpot CRM */
 #hr-popolar-future{
     border: 1px solid grey;
-
 }
 
 /* list free hub spot */
@@ -111,6 +104,34 @@ html {
     padding-right: 10px;
     color: #f05323;
 }
+
+
+/* ----SEZIONE SERVIZI--- */
+
+/* thumbnail */
+.thumbnail{
+    width: 150px;
+    height: 150px;
+}
+
+/* hr- sezione servizi */
+.hr_section-service{
+    border: 1px solid grey;
+}
+
+.list-services > li{
+    list-style-type: none;
+}
+
+.list-services > li > i{
+    color: #f05323;
+}
+
+
+
+
+
+
 
 
 
@@ -283,11 +304,11 @@ select.no-radius{
 }
 
 /* MARGIN UTILITY */
-.m-top_70px{
+.m-top_80px{
     margin-top: 80px;
 }
 
-.m-bottom_70px{
+.m-bottom_80px{
     margin-bottom: 80px;
 }
 
@@ -329,13 +350,26 @@ select.no-radius{
 
 
 /* padding */
-.p-left-right{
-    padding: 0 10%;
-}
 
 .padding-top{
     padding-top: 50%;
 }
+
+.p-left_5{
+    padding-left: 5%;
+}
+
+.p-right_5{
+    padding-right: 5%;
+}
+
+.p-left-right_5{
+    padding: 0 5%;
+}
+
+
+
+
 
 
 /* UTILITY */
