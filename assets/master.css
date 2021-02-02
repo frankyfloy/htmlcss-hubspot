@@ -1,6 +1,7 @@
 html {
     font-size:62.5%;
     font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-width: 1262px;
 }
 
 
@@ -26,6 +27,12 @@ html {
     display: inline-block;
 }
 
+.float-left{
+    float: left;
+    display: inline-block;
+}
+
+
 
 
 /* ----------NAV----------- */
@@ -45,9 +52,9 @@ html {
 #header-bg-image{
     background-image: url("img/jumbotron.png");
     background-repeat: no-repeat;
-    background-size: 100% 132%;
+    background-size: 100% 133%;
     background-position: right;
-    height: 600px;
+    height: 650px;
 }
 
 /* background separatore HEADER/MAIN */
@@ -65,6 +72,45 @@ html {
 
 /* ---------- MAIN ------------ */
 
+/* prima colonna */
+#container-img-header_main{
+    text-align: center;
+}
+
+#cube-img{
+    width: 300px;
+    height: 210px;
+}
+
+
+/* seconda colonna */
+.img-book{
+    width: 150px;
+    height: 150px;
+}
+
+/* centratura hr, row popolar future */
+.centratura-vericale{
+    line-height: 2rem;
+    vertical-align: middle;
+}
+
+/* property hr popolar future */
+#hr-popolar-future{
+    border: 1px solid grey;
+
+}
+
+/* list free hub spot */
+.list-freeHubSpot li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.list-freeHubSpot li > i{
+    padding-right: 10px;
+    color: #f05323;
+}
 
 
 
@@ -117,6 +163,10 @@ html {
 
 
 /* BG-COLOR */
+
+.bg-color-orange{
+    background-color: #f05323;
+}
 
 
 /* BUTTONS SETTING */
@@ -191,14 +241,36 @@ select.no-radius{
     font-weight: bold;
 }
 
-.text-paragraphs{
-    font-size: 1.6rem;
+.text-header-main{
+    font-size: 4rem;
     font-weight: bold;
 }
 
-.text-paragraphs_get-free{
+.text-h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text-h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-paragraphs{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.text-paragraphs-subscribers{
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.text-list{
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 .text-color_grey{
@@ -211,6 +283,14 @@ select.no-radius{
 }
 
 /* MARGIN UTILITY */
+.m-top_70px{
+    margin-top: 80px;
+}
+
+.m-bottom_70px{
+    margin-bottom: 80px;
+}
+
 .m-top_50px{
     margin-top: 50px;
 }
@@ -227,12 +307,50 @@ select.no-radius{
     margin-right: 15px;
 }
 
+.m-top_40px{
+    margin-top: 40px;
+}
+
 .m-bottom_40px{
     margin-bottom: 40px;
 }
 
+.m-top_30px{
+    margin-top: 30px;
+}
 
-/* pointer */
+.m-bottom_30px{
+    margin-bottomj: 30px;
+}
+
+.m-left-10px{
+    margin-left: 50px;
+}
+
+
+/* padding */
+.p-left-right{
+    padding: 0 10%;
+}
+
+.padding-top{
+    padding-top: 50%;
+}
+
+
+/* UTILITY */
 .pointer{
     cursor: pointer;
+}
+
+.display{
+    display: inline-block;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.width-100{
+    width: 100%;
 }
